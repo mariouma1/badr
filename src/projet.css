@@ -1,0 +1,85 @@
+
+.m-projet {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto ;
+
+}
+.bold{
+  font-weight: bold
+}
+.m-paragraphe-projet {
+  text-align: justify;
+  color: #000;
+  font-family: "Calibri Light";
+  line-height: 30px;
+  font-size: 20px;
+}
+.m-description-projet {
+  flex-basis: 60%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 30px 00px 0;
+}
+.m-image-projet {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  width: 450px;
+  min-height: 300px;
+  margin: 0 auto;
+}
+
+.m-start {
+  align-self: flex-start;
+}
+.m-titre {
+  align-self: center;
+  color: var(--main);
+}
+.m-boutons-projet {
+  display: flex;
+  flex-wrap: wrap;
+}
+.m-bouton-projet {
+  border-radius: 12px;
+  width: 200px;
+  height: 50px;
+  margin-left: 20px;
+  background-color: var(--main);
+  color: #fff;
+  border: none;
+  margin-top: 5px;
+  font-family: "Calibri Light";
+  font-size: 20px;
+}
+.m-bouton-projet2 {
+  background-color: var(--second-main);
+}
+.m-bouton-projet3 {
+  background-color: var(--third-main);
+}
+.m-vide {
+  height: 10px;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.etat {
+  font-weight: normal;
+  font-size: 20px;
+  color: #000;
+}
+.line {
+  width: 50%;
+  margin: 100px auto;
+}
